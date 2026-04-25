@@ -1,24 +1,29 @@
 # 🚀 AI Resume Screening System
 
-An AI-powered system that automates resume screening using Natural Language Processing (NLP) and BERT-based semantic similarity.
+An AI-powered application that automates resume screening using NLP and BERT-based semantic similarity to identify the most relevant candidates.
+
+---
 
 ## 📌 Problem
 
-Manual resume screening is time-consuming and often relies on keyword matching, which can overlook strong candidates who use different wording or phrasing.
+Manual resume screening is time-consuming and often limited to keyword matching, which can overlook strong candidates who use different wording.
 
+---
 
 ## 💡 Solution
 
-This project uses BERT-based semantic similarity to understand the meaning behind resumes and job descriptions, enabling more accurate and meaningful candidate ranking.
+This system uses **BERT-based semantic similarity** to understand the meaning of resumes and job descriptions, enabling more accurate candidate ranking and better hiring decisions.
 
+---
 
 ## 🔍 Features
 
 - 📄 Upload multiple PDF resumes  
-- 🧠 BERT-based semantic matching (not just keywords)  
+- 🧠 Semantic matching using BERT (not just keywords)  
 - 🏆 Rank candidates based on job relevance  
 - 🛠 Automatic skill extraction  
-- 📊 Visual score representation  
+- 📊 Match score visualization  
+- 📁 Supports real-time resume analysis  
 
 ---
 
@@ -35,10 +40,13 @@ This project uses BERT-based semantic similarity to understand the meaning behin
 ## 📸 Screenshots
 
 ### 🖥️ Application Interface
-![UI](screenshot1.png)
+![App UI](welcome.png)
 
-### 📊 Resume Ranking Output
-![Results](screenshot2.png)
+### 🏆 Resume Ranking
+![Ranking](2nd.png)
+
+### 📊 Detailed Score Visualization
+![Scores](3rd.png)
 
 ---
 
@@ -54,5 +62,5 @@ cd ai-resume-screening-system
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the application
+# Run the app
 streamlit run app.py
