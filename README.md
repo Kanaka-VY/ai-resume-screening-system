@@ -1,41 +1,58 @@
-# AI Resume Screening System
+# 🚀 AI Resume Screening System
 
-An AI-based resume screening system that helps recruiters automatically rank resumes based on a job description using Natural Language Processing.
+An AI-powered system that automates resume screening using Natural Language Processing (NLP) and BERT-based semantic similarity.
 
-## Features
+## 📌 Problem
 
-* Enter job description
-* Analyze resumes automatically
-* Rank candidates based on similarity score
-* Simple web interface using Streamlit
+Manual resume screening is time-consuming and often relies on keyword matching, which can overlook strong candidates who use different wording or phrasing.
 
-## Technologies Used
 
-* Python
-* Streamlit
-* Scikit-learn
-* TF-IDF Vectorization
-* Cosine Similarity
+## 💡 Solution
 
-## Project Structure
-AI-Resume-Screening-System
-│
-├── app.py
-├── requirements.txt
-└── README.md
+This project uses BERT-based semantic similarity to understand the meaning behind resumes and job descriptions, enabling more accurate and meaningful candidate ranking.
 
-## How to Run
 
-1. Install dependencies
+## 🔍 Features
+
+- 📄 Upload multiple PDF resumes  
+- 🧠 BERT-based semantic matching (not just keywords)  
+- 🏆 Rank candidates based on job relevance  
+- 🛠 Automatic skill extraction  
+- 📊 Visual score representation  
+
+---
+
+## ⚙️ Tech Stack
+
+- Python  
+- Streamlit  
+- Sentence Transformers (BERT)  
+- Scikit-learn  
+- PDFPlumber  
+
+---
+
+## 📸 Screenshots
+
+### 🖥️ Application Interface
+![UI](screenshot1.png)
+
+### 📊 Resume Ranking Output
+![Results](screenshot2.png)
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Kanaka-VY/ai-resume-screening-system.git
+
+# Navigate to project folder
+cd ai-resume-screening-system
+
+# Install dependencies
 pip install -r requirements.txt
 
-2. Run the application
+# Run the application
 streamlit run app.py
-
-3. Open in browser
-http://localhost:8501
-
-## Author
-Kanaka V Y
-B.E. Artificial Intelligence and Machine Learning
-Don Bosco Institute of Technology
