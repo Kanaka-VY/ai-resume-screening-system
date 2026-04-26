@@ -2,16 +2,19 @@
 
 An AI-powered application that automates resume screening using NLP and BERT-based semantic similarity to identify the most relevant candidates.
 
+---
 
 ## 📌 Problem
 
 Manual resume screening is time-consuming and often limited to keyword matching, which can overlook strong candidates who use different wording or phrasing.
 
+---
 
 ## 💡 Solution
 
 This system uses **BERT-based semantic similarity** to understand the meaning behind resumes and job descriptions, enabling more accurate candidate ranking and better hiring decisions.
 
+---
 
 ## 🔍 Features
 
@@ -32,22 +35,24 @@ This system uses **BERT-based semantic similarity** to understand the meaning be
 - Scikit-learn  
 - PDFPlumber  
 
+---
 
 ## 📸 Screenshots
 
 ### 🖥️ Application Interface
-(app_interface.png)
+![App UI](app_interface.png)
 
 ### 🏆 Resume Ranking
-(resume_ranking.png)
+![Ranking](resume_ranking.png)
 
 ### 📊 Detailed Score Visualization
-(detailed_scores.png)
+![Scores](detailed_scores.png)
 
+---
 
 ## 🚀 How to Run Locally
 
-bash
+```bash
 # Clone the repository
 git clone https://github.com/Kanaka-VY/ai-resume-screening-system.git
 
